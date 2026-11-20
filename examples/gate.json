@@ -1,0 +1,34 @@
+{
+  "id": "gate-one",
+  "source": "gate",
+  "first_offset": 1,
+  "last_offset": 2,
+  "events": [
+    {
+      "id": "scan-a",
+      "revision": 1,
+      "offset": 1,
+      "kind": "scan",
+      "data": {
+        "ticket_source": "box",
+        "ticket": "A",
+        "session_ref": "G-EVE",
+        "at": "2026-11-21T19:00:00+08:00",
+        "gate": "north"
+      }
+    },
+    {
+      "id": "scan-c",
+      "revision": 1,
+      "offset": 2,
+      "kind": "scan",
+      "data": {
+        "ticket_source": "partner",
+        "ticket": "C",
+        "session_ref": "G-EVE",
+        "at": "2026-11-21T19:00:01+08:00",
+        "gate": "north"
+      }
+    }
+  ]
+}

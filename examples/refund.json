@@ -1,0 +1,20 @@
+{
+  "id": "partner-refund",
+  "source": "partner",
+  "first_offset": 2,
+  "last_offset": 2,
+  "events": [
+    {
+      "id": "refund-c",
+      "revision": 1,
+      "offset": 2,
+      "kind": "refund",
+      "data": {
+        "ticket_source": "partner",
+        "ticket": "C",
+        "at": "2026-11-22T10:00:00+08:00",
+        "cents": 3334
+      }
+    }
+  ]
+}

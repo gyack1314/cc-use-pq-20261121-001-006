@@ -1,0 +1,32 @@
+{
+  "id": "box-one",
+  "source": "box",
+  "first_offset": 1,
+  "last_offset": 2,
+  "events": [
+    {
+      "id": "sale-a",
+      "revision": 1,
+      "offset": 1,
+      "kind": "sale",
+      "data": {
+        "ticket": "A",
+        "session_ref": "B-EVE",
+        "at": "2026-11-20T10:00:00+08:00",
+        "cents": 10000
+      }
+    },
+    {
+      "id": "sale-b",
+      "revision": 1,
+      "offset": 2,
+      "kind": "sale",
+      "data": {
+        "ticket": "B",
+        "session_ref": "B-EVE",
+        "at": "2026-11-20T10:00:01+08:00",
+        "cents": 8000
+      }
+    }
+  ]
+}

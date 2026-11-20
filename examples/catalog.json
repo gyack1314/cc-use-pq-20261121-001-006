@@ -1,0 +1,77 @@
+{
+  "records": [
+    {
+      "kind": "venue",
+      "data": {
+        "id": "hall",
+        "revision": 1,
+        "name": "合成演艺馆",
+        "timezone": "Asia/Shanghai",
+        "capacity": 100
+      }
+    },
+    {
+      "kind": "session",
+      "data": {
+        "id": "evening",
+        "revision": 1,
+        "production": "合成弦乐夜场",
+        "venue": "hall",
+        "start": "2026-11-21T19:30:00+08:00",
+        "end": "2026-11-21T21:00:00+08:00",
+        "admit_from": "2026-11-21T18:30:00+08:00",
+        "status": "scheduled"
+      }
+    },
+    {
+      "kind": "alias",
+      "data": {
+        "id": "box-alias",
+        "revision": 1,
+        "source": "box",
+        "external": "B-EVE",
+        "session": "evening"
+      }
+    },
+    {
+      "kind": "alias",
+      "data": {
+        "id": "partner-alias",
+        "revision": 1,
+        "source": "partner",
+        "external": "P-EVE",
+        "session": "evening"
+      }
+    },
+    {
+      "kind": "alias",
+      "data": {
+        "id": "gate-alias",
+        "revision": 1,
+        "source": "gate",
+        "external": "G-EVE",
+        "session": "evening"
+      }
+    },
+    {
+      "kind": "channel",
+      "data": {
+        "id": "box-channel",
+        "revision": 1,
+        "source": "box",
+        "account": "box-account",
+        "commission_bps": 0
+      }
+    },
+    {
+      "kind": "channel",
+      "data": {
+        "id": "partner-channel",
+        "revision": 1,
+        "source": "partner",
+        "account": "partner-account",
+        "commission_bps": 1250
+      }
+    }
+  ]
+}
